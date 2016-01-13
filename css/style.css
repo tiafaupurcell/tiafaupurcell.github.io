@@ -1,0 +1,716 @@
+html {
+	width: 100%;
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #fff;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    width: 100%;
+    height: 100%;
+}
+
+body#home {
+	background: url(/img/home_bg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	background-size: cover;
+}
+
+.bg-light-gray {
+	background-color: #f2f2f2;
+}
+
+.border-light-gray {
+	border-bottom: 1px solid #e6e6e6;
+}
+
+a {
+	color: #fff;
+}
+
+a:hover {
+	color: rgba(255,255,255,0.5);
+	text-decoration: none;
+	-webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+h1 {
+	font-size: 3.5556em;
+}
+
+h1,h2,h3,h4,h5 {
+	font-weight: 300;
+	clear: both;
+}
+
+p {
+	font-size: 1.5556em;
+	line-height: 1.75;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+}
+
+.p2 {
+	font-size: 1.32em;
+	line-height: 1.75;
+	word-spacing: -1px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%; 
+}
+
+.p3 {
+	font-size: 1.12em;
+	line-height: 1.45;
+	word-spacing: -1px;
+}
+
+#clockbox {
+	color: #fff;
+}
+
+.img-responsive {
+	margin: 0 auto;
+}
+
+.col-md-3 {
+	text-align: center;
+}
+
+header {
+	border-bottom: 1px solid #e6e6e6;
+	padding-bottom: 10px;
+}
+
+.footer {
+	border-top: 1px solid #e6e6e6;
+	padding-bottom: 10px;
+}
+
+#pages-footer a {
+	color: #999;
+	font-size: 14px;
+}
+
+#pages-footer a:hover {
+	color: #1097D4;
+}
+
+#pages-footer #copy {
+	color: #999;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+#pages-nav a {
+	color: #333;
+}
+
+#pages-nav a:hover {
+	color: #1097D4;
+}
+
+#pages-nav #clockbox {
+	color: #333;
+}
+
+.section-icon img.border {
+	border: 1px solid #e6e6e6;
+	border-radius: 35px;
+}
+
+.section-icon2 img.border {
+	border: 1px solid #e6e6e6;
+	border-radius: 35px;
+}
+
+.section-main {
+	padding-bottom: 60px;
+}
+
+.blue_a a {
+	color: #1097D4;
+}
+
+.blue_a a:hover {
+	text-decoration: underline;
+}
+
+.section-img img {
+	margin-top: 30px;
+}
+
+.section-margin {
+	padding-top: 88px;
+	padding-bottom: 60px;
+}
+
+.caption {
+	text-align: center;
+	color: #666;
+	padding-top: 10px;
+	font-style: italic;
+}
+
+.about_family_avatars {
+	padding-top: 30px;
+}
+
+.about_family_name {
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+.about_family_profiles .padding {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.about_family_profiles .no_padding {
+	padding-bottom: 0;
+}
+
+.about_family_profiles2 {
+	text-align: left;
+}
+
+.border_sm {
+	background-color: #ccc;
+	width: 48px;
+	height: 1px;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+}
+
+.column {
+	padding-top: 30px;
+}
+
+.column a {
+	color: #333;
+}
+
+.column a:hover {
+	color: rgba(0,0,0,0.5);
+	text-decoration: none;
+	-webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s; 
+}
+
+.section_detail .caption {
+	text-align: left;
+}
+
+.section_detail .section_img {
+	padding-bottom: 30px;
+}
+
+.section_detail .caption span {
+	font-weight: 500;
+	padding-right: 10px;
+}
+
+.section_detail .logo_center.caption {
+	text-align: center;
+}
+
+.border-img {
+	border: 1px solid #dfdfdf;
+}
+
+#contact button.btn-xl {
+	border: transparent;
+    padding: 20px 40px;
+    border-radius: 3px;
+    text-transform: none; 
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    background-color: #ccc;
+}
+
+#contact button.btn-xl:hover,
+#contact button.btn-xl:focus,
+#contact button.btn-xl:active,
+#contact button.btn-xl.active,
+#contact button.open .dropdown-toggle.btn-xl {
+    color: #fff;
+    border: transparent;
+    background-color: #1097D4;
+   	-webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+#contact .alert-success {
+	color: #fff;
+	background-color: #09b927;
+	border-color: transparent;
+}
+
+section#contact .form-control {
+	border: transparent;
+}
+
+section#contact form {
+	padding-top: 30px;
+}
+
+section#contact .form-group {
+    margin-bottom: 25px;
+}
+
+section#contact .form-group input,
+section#contact .form-group textarea {
+    padding: 20px;
+}
+
+section#contact .form-group input.form-control {
+    height: auto;
+}
+
+section#contact .form-group textarea.form-control {
+    height: 236px;
+}
+
+section#contact .form-control:focus {
+    border-color: #00bae5;
+    box-shadow: none;
+}
+
+section#contact::-webkit-input-placeholder {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact:-moz-placeholder {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact::-moz-placeholder {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact:-ms-input-placeholder {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact .text-danger {
+    color: #e74c3c;
+    font-size: 14px;
+    text-align: left;
+    font-style: italic;
+}
+
+section#contact .text-danger ul {
+	margin: 0;
+    padding: 0;
+}
+
+section#contact .text-danger ul li {
+    list-style-type: none;
+}
+
+/*section#instafeed {
+	width: 100%;
+	height: 100%;
+}*/
+
+@media only screen and (min-width : 320px) {
+	nav {
+		margin: 0 auto;
+		text-align: center;
+		font-size: 14px;
+		padding-top: 10px;
+	}
+
+	.row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.app-row-first {
+		margin-top: 20px;
+		margin-bottom: 15px;
+	}
+
+	.app-row-first div a p {
+		padding-top: 5px;
+		font-size: 11px;
+	}	
+
+	.app-row {
+		margin-bottom: 15px;
+	}
+
+	.app-row div a p {
+		padding-top: 5px;
+		font-size: 11px;
+	}	
+
+	.app-row-last {
+		margin-bottom: 30px;
+	}
+
+	.app-row-last div a p {
+		padding-top: 5px;
+		font-size: 11px;
+	}
+
+	footer {
+		background-color: rgba(0,0,0,0.3);
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+
+	footer .app-footer-row {
+		margin-top: 15px;
+		margin-bottom: 5px;
+	}
+
+	footer .app-footer-row div a p {
+		padding-top: 5px;
+		font-size: 11px;
+	}
+
+	#pages-footer #copy {
+		line-height: 20px;
+	}
+
+	.section-icon {
+		margin-top: 10px;
+	}
+
+	.section-icon2 {
+		margin-top: 40px;
+	}
+
+	.about_family_profiles2 .p3 {
+		padding-bottom: 30px;
+	}
+
+	.column-row {
+		padding-bottom: 30px;
+	}
+
+	.join-me img.border {
+		border: 1px solid #e6e6e6;
+		border-radius: 14px;
+	}
+
+	.mobile-none {
+		display: none;
+	}
+}
+
+@media only screen and (min-width : 480px) {
+	nav {
+		margin: 0 auto;
+		text-align: center;
+		font-size: 16px;
+		padding-top: 10px;
+	}
+
+	.row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+	.app-row-first {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	.app-row-first div a p {
+		padding-top: 10px;
+		font-size: 14px;
+	}	
+	
+	.app-row {
+		margin-bottom: 50px;
+	}
+
+	.app-row div a p {
+		padding-top: 10px;
+		font-size: 14px;
+	}	
+
+	.app-row-last {
+		margin-bottom: 90px;
+	}
+
+	.app-row-last div a p {
+		padding-top: 10px;
+		font-size: 14px;
+	}
+
+	footer {
+		background-color: rgba(0,0,0,0.5);
+		position: relative;
+		bottom: 0;
+		left: 0;
+	}
+
+	footer .app-footer-row {
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+
+	footer .app-footer-row div a p {
+		padding-top: 10px;
+		font-size: 14px;
+	}
+
+	#pages-footer #copy {
+		line-height: 23px;
+	}
+
+	.section-icon {
+		margin-top: 40px;
+	}
+
+	.section-icon2 {
+		margin-top: 40px;
+	}
+
+	.about_family_profiles2 .p3 {
+		padding-bottom: none;
+	}
+
+	.join-me img.border {
+		border: 1px solid #e6e6e6;
+		border-radius: 30px;
+	}
+
+	.mobile-none {
+		display: inherit;
+	}
+
+	#web-none .caption {
+		display: none;
+	}
+}
+
+@media(min-width:768px) {
+	nav {
+		margin: 0 auto;
+		text-align: center;
+		font-size: 18px;
+		padding-top: 10px;
+	}
+
+	.row {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.app-row-first {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	.app-row-first div a p {
+		padding-top: 15px;
+		font-size: 16px;
+	}	
+
+	.app-row {
+		margin-bottom: 50px;
+	}
+
+	.app-row div a p {
+		padding-top: 15px;
+		font-size: 16px;
+	}	
+
+	.app-row-last {
+		margin-bottom: 90px;
+	}
+
+	.app-row-last div a p {
+		padding-top: 15px;
+		font-size: 16px;
+	}
+
+	footer {
+		background-color: rgba(0,0,0,0.5);
+	}
+
+	footer .app-footer-row {
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+
+	footer .app-footer-row div a p {
+		padding-top: 15px;
+		font-size: 16px;
+	}
+
+	#pages-footer #copy {
+		line-height: 30px;
+	}
+
+	.section-icon {
+		margin-top: 40px;
+	}
+
+	.section-icon2 {
+		margin-top: 40px;
+	}
+
+	.about_family_profiles2 {
+		padding-top: 15%;
+	}
+
+	.join-me img.border {
+		border: 1px solid #e6e6e6;
+		border-radius: 35px;
+	}
+}
+
+@media(min-width:992px) {
+	.row {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	.app-row-first {
+		margin-top: 100px;
+		margin-bottom: 50px;
+	}
+
+	.app-row-first div a p {
+		padding-top: 20px;
+		font-size: 16px;
+	}	
+
+	.app-row {
+		margin-bottom: 50px;
+	}
+
+	.app-row div a p {
+		padding-top: 20px;
+		font-size: 16px;
+	}	
+
+	.app-row-last {
+		margin-bottom: 100px;
+	}
+
+	.app-row-last div a p {
+		padding-top: 20px;
+		font-size: 16px;
+	}
+
+	footer {
+		background-color: rgba(0,0,0,0.5);
+	}
+
+	footer .app-footer-row {
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+
+	footer .app-footer-row div a p {
+		padding-top: 20px;
+		font-size: 16px;
+	}
+
+	.section-icon {
+		margin-top: 90px;
+	}
+
+	.section-icon2 {
+		margin-top: 90px;
+	}	
+
+	.about_family_profiles2 {
+		padding-top: 20%;
+	}
+
+	/*.column-row {
+		padding-bottom: 0;
+	}*/
+}
+
+@media(min-width:1200px) {
+    .row {
+		margin-left: 125px;
+		margin-right: 125px;
+	}
+
+	.app-row-first {
+		margin-top: 100px;
+		margin-bottom: 50px;
+	}
+
+	.app-row-first div a p {
+		padding-top: 20px;
+		font-size: 16px;
+	}
+
+	.app-row {
+		margin-bottom: 50px;
+	}
+
+	.app-row div a p {
+		padding-top: 20px;
+		font-size: 16px;
+	}
+
+	.app-row-last {
+		margin-bottom: 100px;
+	}
+
+	.app-row-last div a p {
+		padding-top: 20px;
+		font-size: 16px;
+	}
+
+	footer {
+		background-color: rgba(0,0,0,0.5);
+	}
+
+	footer .app-footer-row {
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+
+	footer .app-footer-row div a p {
+		padding-top: 20px;
+		font-size: 16px;
+	}
+
+	.section-icon {
+		margin-top: 88px;
+	}
+
+	.section-icon2 {
+		margin-top: 88px;
+	}
+
+	.about_family_profiles2 {
+		padding-top: 20%;
+	}
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="142px" height="142px" viewBox="0 0 142 142" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>142</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M49.5071167,0 L92.4928833,0 C106.7485,0 113.874533,0 121.54845,2.42583333 C129.92645,5.47528333 136.524717,12.07355 139.574167,20.45155 C142,28.1242833 142,35.2526833 142,49.5071167 L142,92.4928833 C142,106.7485 142,113.874533 139.574167,121.54845 C136.524717,129.92645 129.92645,136.524717 121.54845,139.572983 C113.874533,142 106.7485,142 92.4928833,142 L49.5071167,142 C35.2515,142 28.1242833,142 20.45155,139.572983 C12.07355,136.524717 5.47528333,129.92645 2.42583333,121.54845 C0,113.874533 0,106.7485 0,92.4928833 L0,49.5071167 C0,35.2526833 0,28.1242833 2.42583333,20.45155 C5.47528333,12.07355 12.07355,5.47528333 20.45155,2.42583333 C28.1242833,0 35.2515,0 49.5071167,0 L49.5071167,0"></path>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="124.832031%" id="radialGradient-3">
+            <stop stop-color="#555B77" offset="0%"></stop>
+            <stop stop-color="#1D2447" offset="100%"></stop>
+        </radialGradient>
+        <rect id="path-4" x="-24" y="0" width="189" height="142"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F2F2F2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="142" sketch:type="MSArtboardGroup">
+            <g id="projects" sketch:type="MSLayerGroup">
+                <mask id="mask-2" sketch:name="Superellipse 5" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Superellipse-5" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+                <g id="Background">
+                    <use fill-opacity="0.920000076" fill="url(#radialGradient-3)" sketch:type="MSShapeGroup" mask="url(#mask-2)" xlink:href="#path-4"></use>
+                    <use fill-opacity="0.02" fill="none" xlink:href="#path-4"></use>
+                </g>
+                <path d="M126.665734,62.1804041 C124.689958,61.6777945 121.674301,69.3209263 114.585772,69.3209263 C105.486806,69.3209263 101.205959,54 86.9769086,54 C75.6941902,54 72.2452487,62.7870018 71.5,62.7870018 C70.7547513,62.7870018 67.3231411,54 56.0230914,54 C41.8113724,54 37.513194,69.3209263 28.4142276,69.3209263 C21.3256995,69.3209263 18.3100421,61.6777945 16.3342665,62.1804041 C14.4971418,62.6483509 19.731214,88.6627292 44.6363849,88.6627292 C60.7892167,88.6627292 70.2868045,76.1148212 71.5,76.1148212 C72.7131955,76.1148212 82.2107833,88.6627292 98.3636151,88.6627292 C123.268786,88.6627292 128.502858,62.6483509 126.665734,62.1804041" id="Fill-176" fill="url(#linearGradient-5)" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
