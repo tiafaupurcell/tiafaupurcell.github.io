@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="142px" height="142px" viewBox="0 0 142 142" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>icons</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="30.703125%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#CEAA7C" offset="0%"></stop>
+            <stop stop-color="#BE8E5D" offset="100%"></stop>
+        </linearGradient>
+        <path id="path-2" d="M49.5071167,0 L92.4928833,0 C106.7485,0 113.874533,0 121.54845,2.42583333 C129.92645,5.47528333 136.524717,12.07355 139.574167,20.45155 C142,28.1242833 142,35.2526833 142,49.5071167 L142,92.4928833 C142,106.7485 142,113.874533 139.574167,121.54845 C136.524717,129.92645 129.92645,136.524717 121.54845,139.572983 C113.874533,142 106.7485,142 92.4928833,142 L49.5071167,142 C35.2515,142 28.1242833,142 20.45155,139.572983 C12.07355,136.524717 5.47528333,129.92645 2.42583333,121.54845 C0,113.874533 0,106.7485 0,92.4928833 L0,49.5071167 C0,35.2526833 0,28.1242833 2.42583333,20.45155 C5.47528333,12.07355 12.07355,5.47528333 20.45155,2.42583333 C28.1242833,0 35.2515,0 49.5071167,0 L49.5071167,0"></path>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F2F2F2" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icons" sketch:type="MSArtboardGroup">
+            <g id="good-reads" sketch:type="MSLayerGroup">
+                <mask id="mask-3" sketch:name="Superellipse 5" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="Superellipse-5" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup" xlink:href="#path-2"></use>
+                <path d="M71.5,98.4444444 L50,120 L50,28.3888889 C50,25.407037 52.4008333,23 55.375,23 L87.625,23 C90.5991667,23 93,25.407037 93,28.3888889 L93,120 L71.5,98.4444444" id="Fill-189" fill="url(#linearGradient-4)" filter="url(#filter-5)" sketch:type="MSShapeGroup" mask="url(#mask-3)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
