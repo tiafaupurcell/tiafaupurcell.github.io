@@ -2,69 +2,250 @@
 <html lang="en" class="no-js">
 
 <head>
-    <?php include "_/php_includes/head_1.php";?>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 
-    <!--Facebook Meta Data -->
-    <meta property="og:title" content="Tiafau Purcell | User Experience &amp; Interaction Designer" />
-    <!--<meta property="og:type" content="article" />-->
-    <meta property="og:image:type" content="image/jpeg"/>
-    <meta property="og:image" content="http://www.tiafaupurcell.me/img/fb_metadata_photos.jpg" /><!--insert image 1200x630-->
-    <meta property="og:image:width" content="2000"/><!--min 1200px-->
-    <meta property="og:image:height" content="1050"/><!--min 630px-->
-    <meta property="og:url" content="http://www.tiafaupurcell.me/photos.php" />
-    <meta property="og:description" content="I'm not a photographer by any means but I enjoy taking photos and videos of my surroundings. I think photos and videos are a great way of seeing life through the eyes of another person. All these photos were shot on the iPhone."/>
+  <!--Facebook Meta Data -->
+  <meta property="og:title" content="Tiafau Purcell | User Experience &amp; Interaction Designer" />
+  <!--<meta property="og:type" content="article" />-->
+  <meta property="og:image:type" content="image/jpeg"/>
+  <meta property="og:image" content="http://tiafaupurcell.github.io/img/fb_metadata_photos.jpg" /><!--insert image 1200x630-->
+  <meta property="og:image:width" content="2000"/><!--min 1200px-->
+  <meta property="og:image:height" content="1050"/><!--min 630px-->
+  <meta property="og:url" content="http://tiafaupurcell.github.io/photos.html" />
+  <meta property="og:description" content="I'm not a photographer by any means but I enjoy taking photos and videos of my surroundings. I think photos and videos are a great way of seeing life through the eyes of another person. All these photos were shot on the iPhone."/>
 
-    <?php include "_/php_includes/head_2.php";?>
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
-    <title>Photos | User Experience &amp; Interaction Designer</title>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <!-- Third Party CSS -->
+  <link rel="stylesheet" type="text/css" src="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css"/>
+  <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+
+  <!-- Custom Fonts -->
+  <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="text/css" href="img/favicon.ico"/>
+
+  <title>Photos | User Experience &amp; Interaction Designer</title>
 </head>
 
 <body id="about">
+  <header>
+  	<nav id="pages-nav" class="animated bounceInDown">
+	    <div class="container">
+        <div class="col-md-4 col-sm-4 col-xs-4 text-left">
+          <a href="http://tiafaupurcell.github.io/">Tia Purcell</a>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-4" id="clockbox"></div>
+        <div class="col-md-4 col-sm-4 col-xs-4 text-right">
+      	   <a href="mailto:tiafaupurcell03@gmail.com">Hire Me</a>
+        </div>
+	    </div>
+  	</nav>
+  </header>
 
-    <?php include "_/php_includes/pages_nav.php";?>
+  <section class="section-icon2 animated bounceIn">
+  	<div class="container">
+  		<div class="row">
+  			<img src="img/photos_icon.png" class="img-responsive border">
+  		</div>
+  	</div>
+  </section>
 
-    <section class="section-icon2 animated bounceIn">
-    	<div class="container">
-    		<div class="row">
-    			<img src="img/photos_icon.png" class="img-responsive border">
-    		</div>
-    	</div>
-    </section>
+  <section class="section-main blue_a section-img">
+  	<div class="container animated fadeIn">
+  		<div class="row text-center">
+  			<h1>Photos</h1>
+  			<p>I'm not a photographer by any means but I enjoy taking photos and videos of my surroundings. I think photos and videos are a great way of
+  				seeing life through the eyes of another person. All these photos were shot on the iPhone.</p>
+  			<img src="img/photos_main.png" class="img-responsive">
+  			<div class="caption">Golden Gate Bridge &mdash; San Francisco, CA / March 2015</div>
+  		</div>
+  	</div>
+  </section>
 
-    <section class="section-main blue_a section-img">
-    	<div class="container animated fadeIn">
-    		<div class="row text-center">
-    			<h1>Photos</h1>
-    			<p>I'm not a photographer by any means but I enjoy taking photos and videos of my surroundings. I think photos and videos are a great way of 
-    				seeing life through the eyes of another person. All these photos were shot on the iPhone.</p>
-    			<img src="img/photos_main.png" class="img-responsive">
-    			<div class="caption">Golden Gate Bridge &mdash; San Francisco, CA / March 2015</div>
-    		</div>
-    	</div>
-    </section>
+  <section class="section-margin bg-light-gray section-img">
+  	<div class="container animated fadeIn">
+  		<div class="row text-center">
+  			<h2>Shot on iPhone 6</h2>
+  			<div class="p2">Stay tuned.</div>
 
-    <?php include "_/php_includes/photos_iphone6.php";?>
-	<?php include "_/php_includes/photos_iphone5.php";?>
-    <?php  include "_/php_includes/photos_instagram.php" ;?>
-	<?php include "_/php_includes/pages_footer.php";?>
+  			</div>
+  		</div>
+  	</div>
+  </section>
 
-<?php include "_/php_includes/scripts.php";?>
-<script type="text/javascript" src="js/instafeed.min.js"></script>
+  <section class="section_detail section-margin section-img">
+  	<div class="container animated fadeIn">
+  		<div class="row text-center">
+  			<h2>Shot on iPhone 5</h2>
+  			<div class="p2">This is a collection of photos and videos taken with my iPhone 5.</div>
 
-<script type="text/javascript">
-    var userFeed = new Instafeed({
-        get: 'user',
-        userId: 668280720,
-        accessToken: '668280720.467ede5.1a9910e8fe9841d99c96e61b0770a5bb',
-        resolution: 'standard_resolution',
-        limit: 30,
-        template: '<div class="col-md-4 col-sm-6 col-xs-12"><a href="{{link}}" target="_blank"><img src="{{image}}" class="img-responsive"></a></div>',
-        filter: function(image) {
-            return image.tags.indexOf('purcellstrong') >=0;
-        }
-    });
-    userFeed.run();
-</script>
+  			<div class="col-md-12">
+  				<img src="img/photos_11.jpg" class="img-responsive">
+  				<div class="logo_center caption">Overlook to Zion's (Pano View) &mdash; Alton, UT / August 2015</div>
+  			</div>
+
+  			<div class="col-md-12">
+  				<img src="img/photos_10.jpg" class="img-responsive">
+  				<div class="logo_center caption">Overlook to Zion's &mdash; Alton, UT / August 2015</div>
+  			</div>
+
+  			<div class="col-md-12">
+  				<img src="img/photos_9.jpg" class="img-responsive">
+  				<div class="logo_center caption">Overlook to Zion's &mdash; Alton, UT / August 2015</div>
+  			</div>
+
+  			<div class="col-md-12">
+  				<div class="col-md-6 col-sm-6 col-xs-12">
+  					<img src="img/photos_8.jpg" class="img-responsive">
+  					<div class="logo_center caption">Navajo Lake &mdash; Ceder City, UT / August 2015</div>
+  				</div>
+
+  				<div class="section_img col-md-6 col-sm-6 col-xs-12">
+  					<img src="img/photos_7.jpg" class="img-responsive">
+  					<div class="logo_center caption">Wolf Creek Ranch &mdash; Heber, UT / August 2015</div>
+  				</div>
+  			</div>
+
+  			<div class="col-md-12">
+  				<img src="img/photos_1.jpg" class="img-responsive">
+  				<div class="logo_center caption">Golden Gate Bridge &mdash; San Francisco, CA / March 2015</div>
+  			</div>
+
+  			<div class="col-md-12">
+  				<div class="col-md-6 col-sm-6 col-xs-12">
+  					<img src="img/photos_2.jpg" class="img-responsive">
+  					<div class="logo_center caption">Lombard Street &mdash; San Francisco, CA / March 2015</div>
+  				</div>
+
+  				<div class="section_img col-md-6 col-sm-6 col-xs-12">
+  					<img src="img/photos_3.jpg" class="img-responsive">
+  					<div class="logo_center caption">The Hill &mdash; San Francisco, CA / March 2015</div>
+  				</div>
+  			</div>
+
+  			<div class="col-md-12">
+  				<img src="img/photos_4.jpg" class="img-responsive">
+  				<div class="logo_center caption">The Trolley &mdash; San Francisco, CA / March 2015</div>
+  			</div>
+
+  			<div class="col-md-12">
+  				<div class="col-md-6 col-sm-6 col-xs-12">
+  					<img src="img/photos_5.jpg" class="img-responsive">
+  					<div class="logo_center caption">Monterey Bay Aquarium &mdash; Monterey, CA / March 2015</div>
+  				</div>
+
+  				<div class="col-md-6 col-sm-6 col-xs-12">
+  					<img src="img/photos_6.jpg" class="img-responsive">
+  					<div class="logo_center caption">Huntington Beach &mdash; Huntington Beach, CA / March 2015</div>
+  				</div>
+  			</div>
+
+  		</div>
+  	</div>
+  </section>
+
+  <section class="section-margin bg-light-gray section-img">
+    <div class="container animated fadeIn">
+      <div class="row text-center">
+        <h2>Instagram</h2>
+        <div class="p2">This is a collection of some of my recent #PurcellStrong Instagram photos.</div>
+
+        <div class="col-md-12" id="instafeed"></div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="footer">
+  	<nav id="pages-footer" class="animated fadeIn">
+	    <div class="container">
+        <div class="col-md-4 col-sm-4 col-xs-4 text-left">
+          <a href="http://tiafaupurcell.github.io/">Tia Purcell</a>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-4" id="copy">&copy; 2016</div>
+        <div class="col-md-4 col-sm-4 col-xs-4 text-right">
+        	<a href="mailto:tiafaupurcell03@gmail.com">Hire Me</a>
+        </div>
+	    </div>
+  	</nav>
+  </div>
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <!-- Bootstrap Core JS -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+  <!-- Third Party JS -->
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+  <!-- Contact Form JavaScript -->
+  <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+  <script type="text/javascript" src="js/contact_me.js"></script>
+
+  <!-- Custom JS -->
+  <script type="text/javascript" src="js/scripts.js"></script>
+
+  <!-- clock time from http://www.ricocheting.com/code/javascript/html-generator/date-time-clock -->
+  <script type="text/javascript">
+
+  	function GetClock(){
+  	d = new Date();
+  	nhour  = d.getHours();
+  	nmin   = d.getMinutes();
+  	     if(nhour ==  0) {ap = " AM";nhour = 12;}
+  	else if(nhour <= 11) {ap = " AM";}
+  	else if(nhour == 12) {ap = " PM";}
+  	else if(nhour >= 13) {ap = " PM";nhour -= 12;}
+
+  	if(nmin <= 9) {nmin = "0" +nmin;}
+
+
+  	document.getElementById('clockbox').innerHTML=""+nhour+":"+nmin+ap+"";
+  	setTimeout("GetClock()", 1000);
+  	}
+  	window.onload=GetClock;
+
+  </script>
+
+  <!-- Google Analytics -->
+  <script>
+
+  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  	ga('create', 'UA-44209755-1', 'auto');
+  	ga('send', 'pageview');
+
+  </script>
+
+  <script type="text/javascript" src="js/instafeed.min.js"></script>
+
+  <script type="text/javascript">
+      var userFeed = new Instafeed({
+          get: 'user',
+          userId: 668280720,
+          accessToken: '668280720.467ede5.1a9910e8fe9841d99c96e61b0770a5bb',
+          resolution: 'standard_resolution',
+          limit: 30,
+          template: '<div class="col-md-4 col-sm-6 col-xs-12"><a href="{{link}}" target="_blank"><img src="{{image}}" class="img-responsive"></a></div>',
+          filter: function(image) {
+              return image.tags.indexOf('purcellstrong') >=0;
+          }
+      });
+      userFeed.run();
+  </script>
 
 </body>
 </html>

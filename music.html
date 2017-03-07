@@ -2,72 +2,226 @@
 <html lang="en" class="no-js">
 
 <head>
-    <?php include "_/php_includes/head_1.php";?>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 
-    <!--Facebook Meta Data -->
-    <meta property="og:title" content="Tiafau Purcell | User Experience &amp; Interaction Designer" />
-    <!--<meta property="og:type" content="article" />-->
-    <meta property="og:image:type" content="image/jpeg"/>
-    <meta property="og:image" content="http://www.tiafaupurcell.me/img/fb_metadata_music.jpg" /><!--insert image 1200x630-->
-    <meta property="og:image:width" content="2000"/><!--min 1200px-->
-    <meta property="og:image:height" content="1050"/><!--min 630px-->
-    <meta property="og:url" content="http://www.tiafaupurcell.me/music.php" />
-    <meta property="og:description" content="If you know me, you know how much I enjoy listening to music. I listen to all kinds of music from reggae and hip-hop to classical and piano. Much like design, I feel music too is a universal language that can cross borders and change people for good."/>
+  <!--Facebook Meta Data -->
+  <meta property="og:title" content="Tiafau Purcell | User Experience &amp; Interaction Designer" />
+  <!--<meta property="og:type" content="article" />-->
+  <meta property="og:image:type" content="image/jpeg"/>
+  <meta property="og:image" content="http://tiafaupurcell.github.io/img/fb_metadata_music.jpg" /><!--insert image 1200x630-->
+  <meta property="og:image:width" content="2000"/><!--min 1200px-->
+  <meta property="og:image:height" content="1050"/><!--min 630px-->
+  <meta property="og:url" content="http://tiafaupurcell.github.io/music.html" />
+  <meta property="og:description" content="If you know me, you know how much I enjoy listening to music. I listen to all kinds of music from reggae and hip-hop to classical and piano. Much like design, I feel music too is a universal language that can cross borders and change people for good."/>
 
-    <?php include "_/php_includes/head_2.php";?>
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
-    <title>Music | User Experience &amp; Interaction Designer</title>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <!-- Third Party CSS -->
+  <link rel="stylesheet" type="text/css" src="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css"/>
+  <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+
+  <!-- Custom Fonts -->
+  <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="text/css" href="img/favicon.ico"/>
+
+  <title>Music | User Experience &amp; Interaction Designer</title>
 </head>
 
 <body id="about">
-
-    <?php include "_/php_includes/pages_nav.php";?>
-
-    <section class="section-icon2 animated bounceIn">
-    	<div class="container">
-    		<div class="row">
-    			<img src="img/music_icon.svg" class="img-responsive">
-    		</div>
-    	</div>
-    </section>
-
-    <section class="section-main blue_a section-img">
-    	<div class="container animated fadeIn">
-    		<div class="row text-center">
-    			<h1>Music</h1>
-    			<p>If you know me, you know how much I enjoy listening to music. I listen to all kinds of music from reggae and hip-hop to classical and piano. Much like design, I feel music too is a universal language that can cross borders and 
-    			change people for good. I work better when I'm listening to music. Here is just some of the music I enjoy listening to. Enjoy!</p>
-    			<img src="img/music_main.png" class="img-responsive">
-    			<div class="caption">A few of my music platforms &mdash; iTunes and Spotify.</div>
-    		</div>
-    	</div>
-    </section>
-
-    <?php include "_/php_includes/music_itunes.php";?>
-    <?php include "_/php_includes/music_spotify.php";?>
-    <?php include "_/php_includes/music_soundcloud.php";?>
-
-    <section class="section-icon2 animated bounceIn">
-        <div class="container">
-            <div class="row">
-                <img src="img/music_icon.svg" class="img-responsive border">
-            </div>
+  <header>
+  	<nav id="pages-nav" class="animated bounceInDown">
+	    <div class="container">
+        <div class="col-md-4 col-sm-4 col-xs-4 text-left">
+          <a href="http://tiafaupurcell.github.io/">Tia Purcell</a>
         </div>
-    </section>
-
-    <section class="blue_a">
-        <div class="container animated fadeIn section-img">
-            <div class="row text-center">
-                <h2>Music End</h2>
-                <div class="p2">You've come to the end of my music sheet.</div>
-                <img src="img/music_main2.png" class="img-responsive">
-            </div>
+        <div class="col-md-4 col-sm-4 col-xs-4" id="clockbox"></div>
+        <div class="col-md-4 col-sm-4 col-xs-4 text-right">
+        	<a href="mailto:tiafaupurcell03@gmail.com">Hire Me</a>
         </div>
-    </section>
+	    </div>
+  	</nav>
+  </header>
 
-    <?php include "_/php_includes/pages_footer.php";?>
+  <section class="section-icon2 animated bounceIn">
+  	<div class="container">
+  		<div class="row">
+  			<img src="img/music_icon.svg" class="img-responsive">
+  		</div>
+  	</div>
+  </section>
 
-<?php include "_/php_includes/scripts.php";?>
+  <section class="section-main blue_a section-img">
+  	<div class="container animated fadeIn">
+  		<div class="row text-center">
+  			<h1>Music</h1>
+  			<p>If you know me, you know how much I enjoy listening to music. I listen to all kinds of music from reggae and hip-hop to classical and piano. Much like design, I feel music too is a universal language that can cross borders and
+  			change people for good. I work better when I'm listening to music. Here is just some of the music I enjoy listening to. Enjoy!</p>
+  			<img src="img/music_main.png" class="img-responsive">
+  			<div class="caption">A few of my music platforms &mdash; iTunes and Spotify.</div>
+  		</div>
+  	</div>
+  </section>
+
+  <section class="section-margin bg-light-gray section-img">
+  	<div class="container animated fadeIn">
+  		<div class="row text-center">
+  			<h2>iTunes</h2>
+  			<div class="p2">This is a collection of some of the music I've downloaded from iTunes. The artists I've chosen for this collection represent three very different genres of music but each of them, a master of his own art.</div>
+
+  			<div class="column">
+  				<div class="column-row col-md-4 col-sm-12 col-xs-12">
+  					<iframe src="https://widgets.itunes.apple.com/widget.html?c=us&brc=f2f2f2&blc=f2f2f2&trc=f2f2f2&tlc=f2f2f2&d=Best of Bob Marley&t=Bob Marley&m=song&e=song&w=250&h=300&ids=39973132,39973128,36711,39973106,766046408,766020673,39973124,766039190,39973140,39973158&wt=playlist&partnerId=&affiliate_id=&at=&ct=" frameborder=0 style="overflow-x:hidden;overflow-y:hidden;width:250px;height: 300px;border:0px"></iframe>
+  				</div>
+  				<div class="column-row col-md-4 col-sm-12 col-xs-12">
+  					<iframe src="https://widgets.itunes.apple.com/widget.html?c=us&brc=f2f2f2&blc=f2f2f2&trc=f2f2f2&tlc=f2f2f2&d=Best of Michael Jackson&t=Michael Jackson&m=song&e=song&w=250&h=300&ids=269573405,273598923,477803565,269573364,559334754,273598922,215740289,215740514,408082820,273598934&wt=playlist&partnerId=&affiliate_id=&at=&ct=" frameborder=0 style="overflow-x:hidden;overflow-y:hidden;width:250px;height: 300px;border:0px"></iframe>
+  				</div>
+  				<div class="col-md-4 col-sm-12 col-xs-12">
+  					<iframe src="https://widgets.itunes.apple.com/widget.html?c=us&brc=f2f2f2&blc=f2f2f2&trc=f2f2f2&tlc=f2f2f2&d=Best of Elvis Presley&t=Elvis Presley&m=song&e=song&w=250&h=300&ids=217634327,217635636,217633921,388127922,388127877,388127886,217634574,388128010,951162999,676288368&wt=playlist&partnerId=&affiliate_id=&at=&ct=" frameborder=0 style="overflow-x:hidden;overflow-y:hidden;width:250px;height: 300px;border:0px"></iframe>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  </section>
+
+  <section class="section-margin section-img">
+  	<div class="container animated fadeIn">
+  		<div class="row text-center">
+  			<h2>Spotify</h2>
+  			<div class="p2">This is a collection of some of the music I listen to on Spotify. Get a mix of electronic/dubstep, reggae/dancehall, or your popular/latest hits.</div>
+
+  			<div class="column">
+
+  				<div class="column-row col-md-4 col-sm-12 col-xs-12">
+  					<iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Atiafaupurcell%3Aplaylist%3A4QavDSyrrfQmeYqKoiRQy4" width="250" height="300" frameborder="0" allowtransparency="true"></iframe>
+  				</div>
+
+  				<div class="column-row col-md-4 col-sm-12 col-xs-12">
+  					<iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Atiafaupurcell%3Aplaylist%3A7k0XaV0uUir0x1mjt41brv" width="250" height="300" frameborder="0" allowtransparency="true"></iframe>
+  				</div>
+
+  				<div class="col-md-4 col-sm-12 col-xs-12">
+  					<iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Atiafaupurcell%3Aplaylist%3A05BDmGUTkl05kpa5BWKLOg" width="250" height="300" frameborder="0" allowtransparency="true"></iframe>
+  				</div>
+
+  			</div>
+
+  		</div>
+  	</div>
+  </section>
+
+  <section class="section-margin bg-light-gray section-img">
+  	<div class="container animated fadeIn">
+  		<div class="row text-center">
+  			<h2>SoundCloud</h2>
+  			<div class="p2">This is a collection of some of the music I listen to on SoundCloud. "Provo All-Stars" represents music being created by artists and producers in Provo, like James Curran aka JamestheMormon, Mimi Knowles, and David Rhythm (J-Irie Music). "Good Vibes" is just a good ol' list of reggae music.</div>
+
+  			<div class="column">
+
+  				<div class="column-row col-md-6 col-sm-12 col-xs-12">
+  					<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/85832573&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false"></iframe>
+  				</div>
+
+  				<div class="column-row col-md-6 col-sm-12 col-xs-12">
+  					<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/92097852&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false"></iframe>
+  				</div>
+
+  			</div>
+
+  		</div>
+  	</div>
+  </section>
+
+  <section class="section-icon2 animated bounceIn">
+      <div class="container">
+          <div class="row">
+              <img src="img/music_icon.svg" class="img-responsive border">
+          </div>
+      </div>
+  </section>
+
+  <section class="blue_a">
+      <div class="container animated fadeIn section-img">
+          <div class="row text-center">
+              <h2>Music End</h2>
+              <div class="p2">You've come to the end of my music sheet.</div>
+              <img src="img/music_main2.png" class="img-responsive">
+          </div>
+      </div>
+  </section>
+
+  <div class="footer">
+  	<nav id="pages-footer" class="animated fadeIn">
+	    <div class="container">
+        <div class="col-md-4 col-sm-4 col-xs-4 text-left">
+          <a href="http://tiafaupurcell.github.io/">Tia Purcell</a>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-4" id="copy">&copy; 2016</div>
+        <div class="col-md-4 col-sm-4 col-xs-4 text-right">
+        	<a href="mailto:tiafaupurcell03@gmail.com">Hire Me</a>
+        </div>
+	    </div>
+  	</nav>
+  </div>
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <!-- Bootstrap Core JS -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+  <!-- Third Party JS -->
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+  <!-- Contact Form JavaScript -->
+  <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+  <script type="text/javascript" src="js/contact_me.js"></script>
+
+  <!-- Custom JS -->
+  <script type="text/javascript" src="js/scripts.js"></script>
+
+  <!-- clock time from http://www.ricocheting.com/code/javascript/html-generator/date-time-clock -->
+  <script type="text/javascript">
+
+  	function GetClock(){
+  	d = new Date();
+  	nhour  = d.getHours();
+  	nmin   = d.getMinutes();
+  	     if(nhour ==  0) {ap = " AM";nhour = 12;}
+  	else if(nhour <= 11) {ap = " AM";}
+  	else if(nhour == 12) {ap = " PM";}
+  	else if(nhour >= 13) {ap = " PM";nhour -= 12;}
+
+  	if(nmin <= 9) {nmin = "0" +nmin;}
+
+
+  	document.getElementById('clockbox').innerHTML=""+nhour+":"+nmin+ap+"";
+  	setTimeout("GetClock()", 1000);
+  	}
+  	window.onload=GetClock;
+
+  </script>
+
+  <!-- Google Analytics -->
+  <script>
+
+  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  	ga('create', 'UA-44209755-1', 'auto');
+  	ga('send', 'pageview');
+
+  </script>
 
 </body>
 </html>
